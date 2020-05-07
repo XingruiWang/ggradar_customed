@@ -1,4 +1,4 @@
-ggradar <- function(plot.data,
+ggradar2 <- function(plot.data,
                      base.size=20,
                      webtype = "mini",
                      axis.labels="",
@@ -480,7 +480,7 @@ ggradar <- function(plot.data,
     }
     
     # ... + group (cluster) 'paths'
-    base <- base + geom_path(data=multigrouppath,aes(x=x,y=y,group=group,colour=group),
+    base <- base + geom_path(data=multigrouppath,aes(x=x,y=y,group=group,colour=group), alpha=0,
                              size=group.line.width)+
       facet_wrap(~facet1)
     
