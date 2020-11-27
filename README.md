@@ -1,4 +1,4 @@
 # ggradar_customed
-A ggradar for my own used. 
+A ggradar package for my own used, added some extra feature. 
 
 Edited from ggradar2 package.
